@@ -1,11 +1,6 @@
-import './styles.module.css';
+import './CardHeader.css';
 
 function CardHeader({ name, userName, isMale, userPhoto }) {
-  const inlineStyles = {
-    color: '#fff',
-    backgroundColor: isMale ? 'blue' : 'pink',
-  };
-
   return (
     <div
       className="cardHeader"
@@ -13,9 +8,7 @@ function CardHeader({ name, userName, isMale, userPhoto }) {
     >
       <p className="name">{name}</p>
       <p className="userName">@{userName}</p>
-      <button className="followBtn" style={inlineStyles}>
-        +
-      </button>
+      <button className="followBtn">+</button>
     </div>
   );
 }

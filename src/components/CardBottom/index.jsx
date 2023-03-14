@@ -1,18 +1,18 @@
-import './styles.module.css';
+import './CardBottom.css';
 
 const CardBottom = ({ tweets, followings, followers }) => {
   return (
     <div className="cardBottom">
-      <div className="userTweets">
-        <p className="blockName">Tweets</p>
+      <div className="infoBlock">
+        <p className="blockTitle">Tweets</p>
         <p className="blockContent">{tweets}</p>
       </div>
-      <div className="userFollowings">
-        <p className="blockName">Followings</p>
+      <div className="infoBlock">
+        <p className="blockTitle">Followings</p>
         <p className="blockContent">{followings}</p>
       </div>
-      <div className="userFollowers">
-        <p className="blockName">Followers</p>
+      <div className="infoBlock">
+        <p className="blockTitle">Followers</p>
         <p className="blockContent">{followers}</p>
       </div>
     </div>

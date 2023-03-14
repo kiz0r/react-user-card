@@ -1,0 +1,60 @@
+.cardHeader {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  min-width: 300px;
+  min-height: 300px;
+
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: 700;
+}
+
+.name {
+  font-size: 1.7em;
+}
+
+.userName {
+  font-size: 1.2em;
+}
+
+.name,
+.userName {
+  margin-bottom: 20px;
+}
+
+.followBtn {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: -25px;
+
+  width: 50px;
+  height: 50px;
+
+  border: none;
+  border-radius: 50%;
+
+  /* gradient */
+  background: rgb(255, 210, 7);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 210, 7, 1) 0%,
+    rgba(189, 25, 144, 1) 84%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 210, 7, 1) 0%,
+    rgba(189, 25, 144, 1) 84%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 210, 7, 1) 0%,
+    rgba(189, 25, 144, 1) 84%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffd207",endColorstr="#bd1990",GradientType=1);
+}

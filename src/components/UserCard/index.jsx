@@ -1,33 +1,20 @@
-import './styles.module.css';
+import './UserCard.css';
 
 import CardHeader from '../CardHeader';
 import CardBottom from '../CardBottom';
-
-// const users = [
-//   {
-//     name: 'Khomenko Kyrylo',
-//     userName: 'kiz0r',
-//     isMale: true,
-//     tweets: 123,
-//     followings: 456,
-//     followers: 789,
-//   },
-//   {
-//     name: 'Fesenko Valeriia',
-//     userName: 'vaferiiaa',
-//     isMale: false,
-//     tweets: 101,
-//     followings: 98,
-//     followers: 687,
-//   },
-// ];
 
 function UserCard({ props }) {
   const { name, userName, isMale, tweets, followings, followers, userPhoto } =
     props;
 
+  const shadowColor = isMale ? '#00CDFF' : '#9E00FF';
+
+  const inlineCardStyle = {
+    boxShadow: `-5px 20px 40px -20px ${shadowColor}`,
+  };
+
   return (
-    <article className="userCard">
+    <article className="userCard" style={inlineCardStyle}>
       <CardHeader
         name={name}
         userName={userName}

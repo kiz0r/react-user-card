@@ -1,0 +1,21 @@
+.cardBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 140px;
+}
+
+.infoBlock:first-child {
+  margin-left: 0;
+}
+
+.infoBlock {
+  margin-left: 20px;
+}
+
+.blockTitle {
+  font-size: 16px;
+  margin-bottom: 7px;
+  color: #909497;
+}

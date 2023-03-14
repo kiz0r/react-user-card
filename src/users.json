@@ -1,18 +1,20 @@
 {
   "user1": {
-    "name": "Khomenko Kyrylo",
-    "userName": "kiz0r",
+    "name": "Vincente Carvalho",
+    "userName": "VinCarvalho",
     "isMale": true,
-    "tweets": 123,
-    "followings": 456,
-    "followers": 789
+    "tweets": 730,
+    "followings": 114,
+    "followers": 479,
+    "userPhoto": "https://img.freepik.com/free-photo/close-up-of-happy-redhead-man-face-smiling-with-white-teeth-at-camera-wearing-glasses-for-better-sig_1258-77602.jpg?w=1060&t=st=1678759035~exp=1678759635~hmac=a5c08acee72ea9f0b7d18608144541edaa868325d06fa51ec96b924618173b4e"
   },
   "user2": {
-    "name": "Fesenko Valeriia",
-    "userName": "vaferiiaa",
+    "name": "Emma Watson",
+    "userName": "EmWatson",
     "isMale": false,
-    "tweets": 101,
-    "followings": 98,
-    "followers": 687
+    "tweets": 1337,
+    "followings": 561,
+    "followers": 718,
+    "userPhoto": "https://img.freepik.com/free-photo/photo-of-positive-european-female-model-makes-okay-gesture-agrees-with-nice-idea_273609-25629.jpg?w=1060&t=st=1678760357~exp=1678760957~hmac=588f3b70bb1f594ad2efbc3873cc2f673bb0dd7bfdca021666304f18b5cd86ea"
   }
 }
