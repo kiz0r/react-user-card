@@ -1,0 +1,18 @@
+{
+  "user1": {
+    "name": "Khomenko Kyrylo",
+    "userName": "kiz0r",
+    "isMale": true,
+    "tweets": 123,
+    "followings": 456,
+    "followers": 789
+  },
+  "user2": {
+    "name": "Fesenko Valeriia",
+    "userName": "vaferiiaa",
+    "isMale": false,
+    "tweets": 101,
+    "followings": 98,
+    "followers": 687
+  }
+}
