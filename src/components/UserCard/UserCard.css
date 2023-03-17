@@ -2,6 +2,7 @@
   border-radius: 30px;
   background-color: #fff;
   transition: 0.9s all ease;
+  margin: 24px 0;
 }
 
 .userCard:hover {

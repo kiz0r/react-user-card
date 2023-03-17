@@ -1,6 +1,6 @@
 import './CardHeader.css';
 
-function CardHeader({ name, userName, isMale, userPhoto }) {
+function CardHeader({ name, userName, userPhoto }) {
   return (
     <div
       className="cardHeader"

@@ -1,5 +1,4 @@
 import './UserCard.css';
-
 import CardHeader from '../CardHeader';
 import CardBottom from '../CardBottom';
 
