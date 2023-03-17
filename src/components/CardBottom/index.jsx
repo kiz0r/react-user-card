@@ -2,7 +2,7 @@ import './CardBottom.css';
 
 const CardBottom = ({ tweets, followings, followers }) => {
   return (
-    <div className="cardBottom">
+    <section className="cardBottom">
       <div className="infoBlock">
         <p className="blockTitle">Tweets</p>
         <p className="blockContent">{tweets}</p>
@@ -15,7 +15,7 @@ const CardBottom = ({ tweets, followings, followers }) => {
         <p className="blockTitle">Followers</p>
         <p className="blockContent">{followers}</p>
       </div>
-    </div>
+    </section>
   );
 };
 

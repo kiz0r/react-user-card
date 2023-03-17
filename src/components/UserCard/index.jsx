@@ -2,9 +2,9 @@ import './UserCard.css';
 import CardHeader from '../CardHeader';
 import CardBottom from '../CardBottom';
 
-function UserCard({ props }) {
+function UserCard({ user }) {
   const { name, userName, isMale, tweets, followings, followers, userPhoto } =
-    props;
+    user;
 
   const shadowColor = isMale ? '#00CDFF' : '#9E00FF';
 
